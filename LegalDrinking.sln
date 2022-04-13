@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalDrinking.Android", "LegalDrinking.Android\LegalDrinking.Android.csproj", "{01582FAA-826B-4FFD-B93E-880C72C3903C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalDrinking", "LegalDrinking\LegalDrinking.csproj", "{424A6CB8-2B53-4C42-AF37-1EDA14159062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01582FAA-826B-4FFD-B93E-880C72C3903C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424A6CB8-2B53-4C42-AF37-1EDA14159062}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1603CBB2-B2EA-4342-B90C-23EB4AFFBB66}
+	EndGlobalSection
+EndGlobal
