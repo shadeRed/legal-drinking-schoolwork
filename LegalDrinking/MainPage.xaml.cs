@@ -51,7 +51,10 @@ namespace LegalDrinking
             if (legalAge <= 0) { legal = false; }
             else if (legalAge > years) { legal = false; }
 
-            qualify.Text = legal ? "You Can Legally Buy Alcohol!" : "You Can Not Legally Buy Alcohol...";
+            string howMany = "";
+            if (legalAge > 0) { howMany = $" {legalAge - years} More Years!"; }
+
+            qualify.Text = legal ? "You Can Legally Buy Alcohol!" : $"You Can Not Legally Buy Alcohol...{howMany}";
         }
     }
 }
